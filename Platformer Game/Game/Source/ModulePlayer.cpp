@@ -158,7 +158,7 @@ bool ModulePlayer::Update(float dt)
 			running = false;
 		}
 		
-		if (app->input->GetKey(SDL_SCANCODE_A) == KeyState::KEY_REPEAT)
+		if (app->input->GetKey(SDL_SCANCODE_A) == KeyState::KEY_REPEAT && app->input->GetKey(SDL_SCANCODE_LSHIFT) == KeyState::KEY_IDLE)
 		{
 			if (pbody->body->GetLinearVelocity().x >= -2) pbody->body->ApplyLinearImpulse({ -1.0f,0 }, { 0,0 }, true);
 			if (currentAnimation != &leftAnim)
@@ -178,7 +178,7 @@ bool ModulePlayer::Update(float dt)
 			}
 		}
 		
-		if (app->input->GetKey(SDL_SCANCODE_D) == KeyState::KEY_REPEAT)
+		if (app->input->GetKey(SDL_SCANCODE_D) == KeyState::KEY_REPEAT && app->input->GetKey(SDL_SCANCODE_LSHIFT) == KeyState::KEY_IDLE)
 		{
 			if (pbody->body->GetLinearVelocity().x <= +2) pbody->body->ApplyLinearImpulse({ 1.0f,0 }, { 0,0 }, true);
 			if (currentAnimation != &rightAnim)

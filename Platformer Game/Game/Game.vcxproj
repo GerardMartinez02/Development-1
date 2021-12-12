@@ -89,6 +89,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\BirdEnemy.cpp" />
     <ClCompile Include="Source\Collider.cpp" />
     <ClCompile Include="Source\DragonEnemy.cpp" />
     <ClCompile Include="Source\GameOver.cpp" />
@@ -114,6 +115,7 @@
     <ClCompile Include="Source\Textures.cpp" />
     <ClCompile Include="Source\Window.cpp" />
     <ClInclude Include="Source\Animation.h" />
+    <ClInclude Include="Source\BirdEnemy.h" />
     <ClInclude Include="Source\Collider.h" />
     <ClInclude Include="Source\DragonEnemy.h" />
     <ClInclude Include="Source\GameOver.h" />
