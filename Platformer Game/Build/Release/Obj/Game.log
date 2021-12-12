@@ -1,5 +1,4 @@
 ﻿  BirdEnemy.cpp
-  Collider.cpp
   DragonEnemy.cpp
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
@@ -15,13 +14,6 @@ C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platform
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Point.h(54,3): error C2065: 'r': undeclared identifier
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Point.h(56,10): error C2065: 'r': undeclared identifier
   GameOver.cpp
-  Main.cpp
-Source\Main.cpp(94,32): warning C4244: '=': conversion from 'Uint64' to 'int', possible loss of data
-  App.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Audio.cpp
-  Input.cpp
   Map.cpp
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Map.h(31,22): error C3646: 'GetTileRect': unknown override specifier
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Map.h(31,22): error C2059: syntax error: '('
@@ -62,87 +54,3 @@ C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platform
 C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 Source\ModuleCollisions.cpp(85,12): warning C4101: 'c1': unreferenced local variable
 Source\ModuleCollisions.cpp(86,12): warning C4101: 'c2': unreferenced local variable
-  ModuleEnemies.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\DragonEnemy.h(14,12): warning C4099: 'Path': type name first seen using 'class' now seen using 'struct'
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Path.h(16): message : see declaration of 'Path'
-  ModuleEnemy.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  ModuleFadeToBlack.cpp
-Source\ModuleFadeToBlack.cpp(92,19): warning C4244: '=': conversion from 'float' to 'Uint32', possible loss of data
-  ModuleParticles.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModuleParticles.cpp(201,68): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-Source\ModuleParticles.cpp(202,71): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-Source\ModuleParticles.cpp(203,33): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-Source\ModuleParticles.cpp(205,80): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-Source\ModuleParticles.cpp(206,84): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-Source\ModuleParticles.cpp(207,33): warning C4244: '=': conversion from 'float' to 'TYPE', possible loss of data
-          with
-          [
-              TYPE=int
-          ]
-  ModulePhysics.cpp
-Source\ModulePhysics.cpp(230,21): warning C4018: '<': signed/unsigned mismatch
-Source\ModulePhysics.cpp(286,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(287,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(311,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(312,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(383,21): warning C4018: '<': signed/unsigned mismatch
-Source\ModulePhysics.cpp(432,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(433,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(462,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(463,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePhysics.cpp(528,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-Source\ModulePhysics.cpp(529,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-Source\ModulePhysics.cpp(535,27): warning C4244: 'return': conversion from 'float32' to 'int', possible loss of data
-  ModulePlayer.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\ModulePlayer.cpp(128,40): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
-  Particles.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\Particles.cpp(43,19): warning C4018: '>=': signed/unsigned mismatch
-  Path.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Scene.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-Source\Scene.cpp(69,78): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
-Source\Scene.cpp(73,78): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
-  Render.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Compiling...
-  SceneIntro.cpp
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(54,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-C:\Users\user\Desktop\UNI\2n\Desenvolupament de Videojocs\Development-1\Platformer Game\Game\Source\Animation.h(56,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Textures.cpp
-  Window.cpp
-  Log.cpp
-  pugixml.cpp

@@ -1,11 +1,77 @@
 <?xml version="1.0"?>
-<game_state>
-	<input />
+<save_state>
 	<window />
+	<input />
 	<textures />
 	<audio />
-	<scene />
+	<:anonymous />
+	<map />
+	<TitleScreen />
+	<SceneForest />
+	<SceneCastle />
+	<player>
+		<position x="498" y="206" />
+		<atributes score="0" hp="100" />
+	</player>
+	<enemies>
+		<position x="1415" y="221" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="1374" y="221" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="773" y="221" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="1915" y="205" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="3361" y="173" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="6841" y="237" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="6630" y="205" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="7226" y="221" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="7707" y="237" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="1548" y="169" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="915" y="222" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="2365" y="179" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="6066" y="217" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="8235" y="216" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="7963" y="195" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="7082" y="191" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="5174" y="231" />
+		<atributes timer="19" enemyHp="1" />
+		<position x="822" y="122" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="1084" y="120" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="1706" y="111" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="2193" y="97" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="2968" y="74" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="3613" y="105" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="3790" y="253" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="4140" y="190" />
+		<atributes timer="0" enemyHp="1" />
+		<position x="4927" y="189" />
+		<atributes timer="0" enemyHp="1" />
+	</enemies>
+	<:anonymous />
+	<:anonymous />
+	<:anonymous />
+	<pathfinding />
 	<renderer>
-		<camera x="0" y="0" />
+		<camera x="-1392" y="-192" />
 	</renderer>
-</game_state>
+</save_state>
